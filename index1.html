@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+  th,td{
+    border-style: double;
+    border-color: black;
+  }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #99F;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #ccc;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #99F;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+}
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+a::before {
+  content: "»";
+  color: lightgreen;
+}
+ul {
+  list-style-type: none;
+  margin: 20;
+  padding: 0;
+  width: 200px;
+  background-color: #99F;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+
+  <img src="file:///C:/Users/Livika/Desktop/lABORATORUL%202/mapa.jpg" alt="Europa" usemap="#Er"  width="200" height="200" align="right">
+
+
+<header>
+
+  <h2>Europa</h2>
+
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="file:///C:/Users/Livika/Desktop/lABORATORUL%202/2p.html">Geografie</a></li>
+      <li><br><a href="file:///C:/Users/Livika/Desktop/lABORATORUL%202/3p.html">Istorie</a></br></li>
+      <li><br><a href="file:///C:/Users/Livika/Desktop/lABORATORUL%202/4p.html">Date demografice</a></br></li>
+    </ul>
+  </nav>
+
+  <article>
+
+    <p>Europa este un continent situat în întregime în emisfera nordică și în cea mai mare parte în emisfera estică. Cuprinde cea mai vestică parte a Eurasiei și este mărginită de Oceanul Arctic la nord, Oceanul Atlantic la vest, Marea Mediterană la sud și de Asia la est.</p>
+      <p>Europa este considerată în mod obișnuit separată de Asia de bazinul hidrografic al Munților Ural, râul Ural, Marea Caspică, Caucazul Mare, Marea Neagră, și căile navigabile ale strâmtorii turcești.</p>
+
+  </article>
+</section>
+
+<footer>
+  <p>
+    <h2>Lista statelor și țărilor din Europa</h2><table style="width:100%">
+<tr>
+  <th>Nume</th>
+  <th>Suprafață</th>
+  <th>Populației</th>
+  <th>Densitatea populației</th>
+  <th>Capitala</th>
+  <th>Denumirea în limba oficială</th>
+</tr>
+<tr>
+  <th>Albania</th>
+  <th>28.478</th>
+  <th>2.876.591</th>
+  <th>98,5</th>
+  <th>Tirana</th>
+  <th>Shqipëria</th>
+</tr>
+<tr>
+  <th>Andorra</th>
+  <th>468</th>
+  <th>77.281</th>
+  <th>179,8</th>
+  <th>Andorra la Vella</th>
+  <th>Andorra</th>
+</tr>
+<tr>
+  <th>Armenia</th>
+  <th>29.743</th>
+  <th>2.924.816</th>
+  <th>101,5</th>
+  <th>Erevan</th>
+  <th>Հայաստան (Hayastan)</th>
+</tr>
+<tr>
+  <th>Austria</th>
+  <th>83.858</th>
+  <th>8.823.054</th>
+  <th>104</th>
+  <th>Viena</th>
+  <th>Österreich</th>
+</tr>
+<tr>
+  <th>Azerbaijan</th>
+  <th>86.600</th>
+  <th>9.911.646</th>
+  <th>113</th>
+  <th>Baku</th>
+  <th>Azǝrbaycan</th>
+</tr>
+<tr>
+  <th>Belarus</th>
+  <th>207.560</th>
+  <th>9.504.700</th>
+  <th>45,8</th>
+  <th>Minsk</th>
+  <th>Беларусь (Belaruś)</th>
+</tr>
+<tr>
+  <th>Belgia</th>
+  <th>30.528</th>
+  <th>11.358.357</th>
+  <th>372,06</th>
+  <th>Bruxelles</th>
+  <th>België/Belgique/Belgien</th>
+</tr>
+<tr>
+  <th>Bosnia și Herzegovina</th>
+  <th>51.129</th>
+  <th>3.531.159</th>
+  <th>68,97</th>
+  <th>Sarajevo</th>
+  <th>Bosna i Hercegovina/Боснa и Херцеговина</th>
+</tr>
+<tr>
+  <th>Bulgaria</th>
+  <th>110.910</th>
+  <th>7.101.859</th>
+  <th>64,9</th>
+  <th>Sofia</th>
+  <th>	България (Bǎlgariya)</th>
+</tr>
+<tr>
+  <th>Cipru</th>
+  <th>9.251</th>
+  <th>1.170.125</th>
+  <th>123,4</th>
+  <th>Nicosia</th>
+  <th>Κύπρος (Kýpros)/Kıbrıs	</th>
+</tr>
+<tr>
+  <th>Croația</th>
+  <th>56.542</th>
+  <th>4.284.889</th>
+  <th>75,8</th>
+  <th>Zagreb</th>
+  <th>Hrvatska	</th>
+</tr>
+<tr>
+  <th>Danemarca</th>
+  <th>43.094</th>
+  <th>5.748.796</th>
+  <th>133,9</th>
+  <th>Copenhaga</th>
+  <th>Danmark	</th>
+</tr>
+<tr>
+  <th>Elveția</th>
+  <th>41.285</th>
+  <th>8.401.120</th>
+  <th>202</th>
+  <th>Berna</th>
+  <th>Schweiz/Suisse/Svizzera/Svizra	</th>
+</tr>
+<tr>
+  <th>Estonia</th>
+  <th>45.226</th>
+  <th>1.319.133</th>
+  <th>28</th>
+  <th>Talin</th>
+  <th>Eesti	</th>
+</tr>
+<tr>
+  <th>Spania</th>
+  <th>505.990</th>
+  <th>46.698.151</th>
+  <th>92</th>
+  <th>Madrid</th>
+  <th>España</th>
+</tr>
+</table></p>
+</footer>
+
+</body>
+</html>
+
+  <body>
+
+  </body>
+</html>
