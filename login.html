@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/template.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+
+    <style media="screen">
+      label.error{
+        color: red;
+        text-align: left;
+      }
+      body{
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+    </style>
+  </head>
+  <body>
+    <div class="mainbox">
+      <div class="title">Login</div>
+
+      <form class="input" action="forms/login.php" method="post">
+        <input type="text" name="email" placeholder="Email" class="loginitem">
+        <input type="password" name="password" placeholder="Password" class="loginitem">
+        <input type="submit" name="submit" value="Submit" class="loginbtn">
+      </form>
+
+      <div class="registerbox">
+        <span>You're not with us? <a href="register.html">Register</a></span>
+      </div>
+
+      <div class="socialbox">
+        <span>Login with Facebook</span>
+        <a href="#" class="facebooklink">
+            <img src="styles/Images/facebook2.png" alt="Facebook Icon" class="facebookicon">
+        </a>
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="scripts/login2.js"></script>
+
+  </body>
+</html>
