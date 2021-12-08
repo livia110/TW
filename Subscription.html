@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Subscription</title>
+    <link rel="stylesheet" href="styles/login.css">
+
+    <style>
+      .mainbox{
+        border-radius: 25px;
+      }
+      body{
+        background-image: url('back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+
+
+    <div class="mainbox" style="height: 200px;">
+      <div class="title" style="height: 30%;">Subscription</div>
+
+      <form class="input" action="forms/subscription.php" method="post" style="height: 70%;">
+        <input type="text" name="name" placeholder="name" class="loginitem">
+        <input type="text" name="email" placeholder="email" class="loginitem">
+        <input type="submit" name="submit" value="Subscribe" class="loginbtn">
+      </form>
+
+    </div>
+
+    <script src="scripts/subscription.js"></script>
+
+  </body>
+</html>

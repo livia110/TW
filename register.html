@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles/register.css">
+
+
+    <style media="screen">
+      label.error{
+        color: red;
+        text-align: left;
+      }
+      body{
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+    </style>
+  </head>
+  <body>
+
+    <header>
+        
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+
+
+    <div class="mainbox" style="height: 420px">
+      <div class="title">Register</div>
+
+      <form class="input" action="forms/register.php" method="post">
+        <input type="text" name="name" placeholder="Name" class="loginitem">
+        <input type="text" name="email" placeholder="Email" class="loginitem">
+        <input type="password" name="password" placeholder="Password" class="loginitem" id="password">
+        <input type="password" name="confirm" placeholder="One more" class="loginitem">
+        <input type="submit" name="submit" value="Register" class="loginbtn">
+      </form>
+
+      <div class="socialbox">
+        <span>Register with Facebook</span>
+        <a href="#" class="facebooklink">
+            <img src="styles/images/facebook2.png" alt="Facebook Icon" class="facebookicon">
+        </a>
+      </div>
+
+    </div>
+    <script src="scripts/register.js"></script>
+  </body>
+</html>
